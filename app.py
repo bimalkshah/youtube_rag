@@ -50,7 +50,7 @@ try:
 
     main_chain = parallel_chain | prompt | llm | praser
 
-    question = input("Ask you question related to video")
+    question = input("Ask your question related to video")
 
     answer = main_chain.invoke(question)
 
